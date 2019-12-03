@@ -1,0 +1,30 @@
+@import '../../styles/_variables.scss';
+
+.tabs-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	.tab {
+		border-bottom: 3px solid $yellow;
+		border-top: none;
+		border-left: none;
+		background: transparent;
+		width: 100%;
+
+		&.active {
+			border-bottom: 3px solid $lightYellow;
+		}
+	}
+
+	.menu-image {
+		height: 100px;
+	}
+
+	.menu-title {
+		color: $purple;
+		font-family: $fontFamily;
+		font-size: $fontSizeHuge;
+		margin-top: 0;
+	}
+}

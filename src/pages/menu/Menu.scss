@@ -1,0 +1,9 @@
+@import '../../styles/_variables.scss';
+
+.menu-container {
+	.title {
+		color: $orange;
+		font-family: $fontFamily;
+		font-size: $title;
+	}
+}

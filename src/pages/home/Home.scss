@@ -1,0 +1,29 @@
+@import '../../styles/_variables.scss';
+
+.home {
+	background: $purple;
+	height: 100vh;
+	color: $white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.home-title {
+		font-size: $title;
+	}
+
+	.button-container {
+		width: 100vw;
+	}
+
+	.home-button {
+		color: $white;
+		font-size: $fontSizeHuge;
+		border: 2px solid $white;
+		background: transparent;
+		border-radius: 5%;
+		padding: $paddingMedium $paddingLarge;
+		margin: $paddingMedium;
+	}
+}

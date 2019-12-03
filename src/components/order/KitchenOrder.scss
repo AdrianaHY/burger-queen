@@ -1,0 +1,51 @@
+@import '../../styles/_variables.scss';
+
+.kitchen-order-container {
+	border-bottom: 2px solid $orange;
+	padding: $paddingLarge;
+
+	.text-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		font-family: $fontFamily;
+		font-size: $fontSizeHuge;
+	}
+
+	.text-image {
+		height: 30px;
+		padding-right: $paddingMedium;
+	}
+
+	.kitchen-items-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	.kitchen-item {
+		background: $lightYellow;
+		width: 50vw;
+		margin: 0;
+	}
+
+	.kitchen-item-text {
+		border-bottom: 1px solid $purple;
+		font-family: $fontFamily;
+		font-size: $fontSizeHuge;
+		text-align: left;
+		padding: $paddingMedium $paddingLarge;
+		margin: 0;
+	}
+
+	.order-ready {
+		background: transparent;
+		border: 1px solid $purple;
+		border-radius: 5%;
+		color: $purple;
+		font-family: $fontFamily;
+		font-size: $fontSizeHuge;
+		padding: $paddingMedium;
+	}
+}

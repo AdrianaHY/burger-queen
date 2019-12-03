@@ -1,0 +1,38 @@
+$paddingTiny:                          4px;
+$paddingSmall:                         8px;
+$paddingMedium:                        16px;
+$paddingLarge:                         32px;
+$paddingHuge:                          64px;
+
+$purple:                               #8E1787;
+$orange:							   #E6713C;
+$yellow:                               #E4DD3C;
+$lightYellow: 	                       #E8E7C9;
+$white:                                #FFFFFF;
+
+$fontFamily: 						   'Noto Serif', serif;
+
+$fontSizeStandard:                     14px;
+$fontSizeSmall:                        12px;
+$fontSizeMedium:                       16px;
+$fontSizeLarge:                        18px;
+$fontSizeHuge:                         28px;
+$title:                                50px;
+
+$breakpoints: (
+  'small'  : ( min-width:  767px ),
+  'medium' : ( min-width:  992px ),
+  'large'  : ( min-width: 1200px )
+);
+
+@mixin breakpoint($name) {
+  @if map-has-key($breakpoints, $name) {
+    @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}

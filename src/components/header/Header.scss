@@ -1,0 +1,17 @@
+@import '../../styles/_variables.scss';
+
+.header {
+	background: $purple;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: $paddingMedium $paddingLarge;
+
+	.logo {
+		height: 80px;
+	}
+
+	.user {
+		height: 50px;
+	}
+}

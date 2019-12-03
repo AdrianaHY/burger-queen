@@ -1,0 +1,30 @@
+@import '../../styles/_variables.scss';
+
+.list-item {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 44px;
+	padding: $paddingMedium $paddingLarge;
+	border-bottom: 2px solid $lightYellow;
+
+	.button-item {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		font-family: $fontFamily;
+		font-size: $fontSizeLarge;
+	}
+
+	.menu-icon {
+		height: 40px;
+	}
+
+	.text-menu {
+		padding-left: $paddingLarge;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+}
