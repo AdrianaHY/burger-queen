@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/burger-queen/static/css/main.aa189678.chunk.css",
-    "main.js": "/burger-queen/static/js/main.eb014412.chunk.js",
-    "main.js.map": "/burger-queen/static/js/main.eb014412.chunk.js.map",
-    "runtime-main.js": "/burger-queen/static/js/runtime-main.9a7637dc.js",
-    "runtime-main.js.map": "/burger-queen/static/js/runtime-main.9a7637dc.js.map",
-    "static/js/2.cbe138a4.chunk.js": "/burger-queen/static/js/2.cbe138a4.chunk.js",
-    "static/js/2.cbe138a4.chunk.js.map": "/burger-queen/static/js/2.cbe138a4.chunk.js.map",
-    "index.html": "/burger-queen/index.html",
-    "precache-manifest.e65c016bbeee37deeeb4df3c333e19ae.js": "/burger-queen/precache-manifest.e65c016bbeee37deeeb4df3c333e19ae.js",
-    "service-worker.js": "/burger-queen/service-worker.js",
-    "static/css/main.aa189678.chunk.css.map": "/burger-queen/static/css/main.aa189678.chunk.css.map",
-    "static/media/breakfast.svg": "/burger-queen/static/media/breakfast.6218d49c.svg",
-    "static/media/burger-and-soda.svg": "/burger-queen/static/media/burger-and-soda.8287c7b9.svg",
-    "static/media/fast-food.svg": "/burger-queen/static/media/fast-food.17d2df51.svg",
-    "static/media/paper-bin.svg": "/burger-queen/static/media/paper-bin.c9a74ae2.svg",
-    "static/media/restaurant.svg": "/burger-queen/static/media/restaurant.c2bd9a97.svg",
-    "static/media/user.svg": "/burger-queen/static/media/user.c43edba9.svg"
+    "main.css": "/burger-queen/src/static/css/main.aa189678.chunk.css",
+    "main.js": "/burger-queen/src/static/js/main.15ee1562.chunk.js",
+    "main.js.map": "/burger-queen/src/static/js/main.15ee1562.chunk.js.map",
+    "runtime-main.js": "/burger-queen/src/static/js/runtime-main.56feae6b.js",
+    "runtime-main.js.map": "/burger-queen/src/static/js/runtime-main.56feae6b.js.map",
+    "static/js/2.cbe138a4.chunk.js": "/burger-queen/src/static/js/2.cbe138a4.chunk.js",
+    "static/js/2.cbe138a4.chunk.js.map": "/burger-queen/src/static/js/2.cbe138a4.chunk.js.map",
+    "index.html": "/burger-queen/src/index.html",
+    "precache-manifest.1798aefb40955cf85381d491dcde1a90.js": "/burger-queen/src/precache-manifest.1798aefb40955cf85381d491dcde1a90.js",
+    "service-worker.js": "/burger-queen/src/service-worker.js",
+    "static/css/main.aa189678.chunk.css.map": "/burger-queen/src/static/css/main.aa189678.chunk.css.map",
+    "static/media/breakfast.svg": "/burger-queen/src/static/media/breakfast.6218d49c.svg",
+    "static/media/burger-and-soda.svg": "/burger-queen/src/static/media/burger-and-soda.8287c7b9.svg",
+    "static/media/fast-food.svg": "/burger-queen/src/static/media/fast-food.17d2df51.svg",
+    "static/media/paper-bin.svg": "/burger-queen/src/static/media/paper-bin.c9a74ae2.svg",
+    "static/media/restaurant.svg": "/burger-queen/src/static/media/restaurant.c2bd9a97.svg",
+    "static/media/user.svg": "/burger-queen/src/static/media/user.c43edba9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9a7637dc.js",
+    "static/js/runtime-main.56feae6b.js",
     "static/js/2.cbe138a4.chunk.js",
     "static/css/main.aa189678.chunk.css",
-    "static/js/main.eb014412.chunk.js"
+    "static/js/main.15ee1562.chunk.js"
   ]
 }
