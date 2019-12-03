@@ -7,7 +7,7 @@ App to take orders in the fast food restaurant burger queen.
 ### Tools used: 
 react, sass, jest, enzyme.
 
-Like a first iteration I made a very simple API with a tool called shhety (https://sheety.co/), in a second iteration I plan to do something more complete with mongo and mongoose.
+Like a first iteration I made a very simple API with a tool called sheety (https://sheety.co/), in a second iteration I plan to do something more complete with mongo and mongoose.
 
 The application allows two users, the waiter or waitress and the kitchen, the waiter may be able to take the order and send it to the kitchen, if we return to the main menu and choose the kitchen you can see the requested  order.
 
